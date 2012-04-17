@@ -43,7 +43,24 @@
       - p = the service utilization
       - assumes requests arrive according to a random, memoryless process and have independant exponentially distributted service times
   - offered load = the rate of arrival of request for a service
+    - overloaded = when the offered load is > than the capacity of the service
 
+- Fighting Bottlnecks
+  - Batching
+    - performing several request as a group to avoid the setup overhead
+    - works well when processing a request has
+      - fixed delay (f)
+      - variable delay (v)
+      - without batching
+        - processing n requests takes n x (f + v)
+      - with batching
+        - takes f + n x v
+      - could also reorder requests
+  - Dallying
+    - delaying a request on the chance that the operation won't be needed / create more batching oportunities
+  - Speculation
+    - performing an operation in advance of recieving a request on the chance that it will be requested
+    - can perform ops using otherwise idle reasources
 
 
 
