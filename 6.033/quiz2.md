@@ -14,3 +14,7 @@
 
 -  throughput
   - the rate of useful work done by a service
+  - throughput_a+b <= minumum(throughput_a, throughput_b)
+  - when a stage processes request serially the throughput and the latency are directly related
+    - throughput = 1 / latency
+    - if it processes request oncurently their is no direct relationship between latency and throughput
