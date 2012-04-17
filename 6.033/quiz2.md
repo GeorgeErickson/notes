@@ -62,6 +62,16 @@
     - performing an operation in advance of recieving a request on the chance that it will be requested
     - can perform ops using otherwise idle reasources
 
+## 6.2 Multilevel Memories
+- Memory Charactorization
+  - Capacity
+  - Average random latency
+  - cost = currency per storage unit
+  - cell size = the # of bytes moved by a singl READ or WRITE
+  - Throughput
+- Multilevel Memory
+  - Virtual Memory Manager
+
 
 
 
