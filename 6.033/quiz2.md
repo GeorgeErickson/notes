@@ -10,8 +10,7 @@
   
 -  latency 
   - delay between a change at the input to a system and the corresponding change at its output
-  - pipelining
-    - latency_a+b >= latency_a + latency_b
+  - pipelining - latency_a+b >= latency_a + latency_b
 
 -  throughput
   - the rate of useful work done by a service
