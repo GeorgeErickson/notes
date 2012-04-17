@@ -3,9 +3,9 @@
 ## 6.1 Performance Metrics
 
 -  capacity - a measure of a service's size
--  utilization - the percentage of capacity of a reasource that is used
+-  utilization - the percentage of capacity of a resource that is used
 -  overhead - in a layered application its what the layers below it use
--  useful work - what is abailible to the application
+-  useful work - what is available to the application
   - e.g. if 10% of a disk is used for file system data structures then from the applications pov 10% is overhead of the fs and 90% is useful capacity
   
 -  latency 
@@ -15,10 +15,10 @@
 
 -  throughput
   - the rate of useful work done by a service
-  - throughput_a+b <= minumum(throughput_a, throughput_b)
+  - throughput_a+b <= minimum(throughput_a, throughput_b)
   - when a stage processes request serially the throughput and the latency are directly related
     - throughput = 1 / latency
-    - if it processes request concurently their is no direct relationship between latency and throughput
+    - if it processes request concurrently their is no direct relationship between latency and throughput
 
 - law of diminishing returns - optimizing individual components may be a waste of time
 
@@ -28,7 +28,7 @@
       -have a fast path for common actions
     - a cache
     - average latency - Freq_fast x Latency_fast + Freq_slow x Latency_slow
-  - concurency
+  - concurrency
     - split the processing a stage must do into small parts
 
 - Improving Throughput
@@ -41,11 +41,11 @@
   - service time = the time it takes to process a request
     - average queuing delay = 1/(1 -p)
       - p = the service utilization
-      - assumes requests arrive according to a random, memoryless process and have independant exponentially distributted service times
+      - assumes requests arrive according to a random, memoryless process and have independent exponentially distributed service times
   - offered load = the rate of arrival of request for a service
     - overloaded = when the offered load is > than the capacity of the service
 
-- Fighting Bottlnecks
+- Fighting Bottlenecks
   - Batching
     - performing several request as a group to avoid the setup overhead
     - works well when processing a request has
@@ -57,17 +57,17 @@
         - takes f + n x v
       - could also reorder requests
   - Dallying
-    - delaying a request on the chance that the operation won't be needed / create more batching oportunities
+    - delaying a request on the chance that the operation won't be needed / create more batching opportunities
   - Speculation
-    - performing an operation in advance of recieving a request on the chance that it will be requested
-    - can perform ops using otherwise idle reasources
+    - performing an operation in advance of receiving a request on the chance that it will be requested
+    - can perform ops using otherwise idle resources
 
 ## 6.2 Multilevel Memories
-- Memory Charactorization
+- Memory Characterization
   - Capacity
   - Average random latency
   - cost = currency per storage unit
-  - cell size = the # of bytes moved by a singl READ or WRITE
+  - cell size = the # of bytes moved by a single READ or WRITE
   - Throughput
 - Multilevel Memory
   - Virtual Memory Manager
