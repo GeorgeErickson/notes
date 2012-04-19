@@ -14,6 +14,7 @@
   - **pipelining** - latency_a+b >= latency_a + latency_b
 
 -  **throughput**
+  - throughput <= Window / RTT  
   - the rate of useful work done by a service
   - throughput_a+b <= minimum(throughput_a, throughput_b)
   - when a stage processes request serially the throughput and the latency are directly related
@@ -112,6 +113,9 @@
 		3. Processing delay
 		  - Time required to route and validate a packet
 		4. Queuing Delay
+		
+## 7.5 The End-to-End Layer
+
 		
 	
 	
