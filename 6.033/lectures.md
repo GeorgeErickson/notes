@@ -14,7 +14,7 @@
 		- integrate(N, neighbor, link) 
 			- on receipt of advertisement from neighbor merge table N received on link into T
 		 	- merge(N, link, T)
-		 	```
+		 	```python
 		 	for each dest d w/path r in N:
 		 		if d not in T:
 		 			add (d, link, neighbor ++ r) to T
