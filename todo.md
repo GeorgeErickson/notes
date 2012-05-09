@@ -2,13 +2,6 @@
 
 ## This Week
 
-### STS.001
-- Tuesday at 3pm - reading quiz 3
-- Tuesday at 5pm - Meet with writing advisor
-
-### 9.68
-- Tuesday at 7pm - presentation of term paper
-
 ### 6.033
 - Thursday - DP2 final report due
 
@@ -19,7 +12,8 @@
 ## Later
 
 ### STS.001
-- 5/15 by 4pm final paper due
+- 5/19 by 4pm final paper due
+- meet with writing advisor
 
 ### 9.68
 - 5/14 final draft of term paper
