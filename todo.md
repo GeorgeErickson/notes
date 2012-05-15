@@ -2,11 +2,10 @@
 
 ## This Week
 
-### 6.033
-- Thursday - DP2 final report due
+### Tuesday
+- *7pm* - 9.68, Term Paper
+- *10pm* - 6.033, Paper Question
 
-### 6.813
-- Friday - Complete implmentation of app
 
 
 ## Later
