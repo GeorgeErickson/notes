@@ -1,10 +1,10 @@
 6.170 - MW1-2.30 - Web Software Studio 
 7.012 - MWF10 - Biology
 STS.027J - R7-10 PM - The Civil War and the Emergence of Modern America
-6.867 - Machine Learning
 21M.013 - MW11-12.30 - HASS -2 
 
-Course 9
+
+HASS-C 9
 6.UAT
 6.UAP
 6.857 - Network and Computer Security
