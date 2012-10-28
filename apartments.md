@@ -30,5 +30,7 @@ Place | Price | SqFt |
 ------|-------|-------
 [Watermark Cambridge](http://gables.com/find/apartment/1231-watermark-cambridge-cambridge-ma)|2969|887
 
-
-
+### Kenmore *a lot cheaper
+Place | Price | SqFt |
+------|-------|-------
+[The kenmore apartments](http://www.kenmoreapts.com/templates/ml_template_concept07_writ/floorplan.asp?w=thekenmore&siteid=1983443)|2500|1180
